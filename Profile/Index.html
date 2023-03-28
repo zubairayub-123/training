@@ -2,55 +2,76 @@
 <html lang="en">
 <head>
     <title>Document</title>
+    <link rel="stylesheet" href="./Style.css">
 </head>
 <body>
-    <h1>Welcome to the Blog
-        <br>
-        I am Chennuru Shaik Zubair
+    <h1 class="A">
+        <marquee behavior="" direction="right">Welcome</marquee>
+        Chennuru Shaik Zubair
     </h1>
-    
-    <ul>
-        <li><a href="./home.jpg" target="_blank">HOME</a></li>
+    <ul class="B">
+        <li><a href="./Index.html" target="_blank">HOME</a></li>
         <li><a href="./Info.html" target="_blank">INFO</a></li>
         <li><a href="./Contact.html">CONTACT</a></li>
     </ul>
-    <h3>Projects</h3>
-    <p>
-        Every graduate has to be complete project in his final year like that i have done 2 Projects Mini project and Major Project.
-        <h4>
-        1.Mini project</h4>
-        <h4>Automation of irrigation system using IOT</h4>
-        Technology we are used in this project is Internet of Things(IOT).
-        The main purpose of this project is to save water and time.
+    <h3 class="C">Projects</h3>
+    <div class="D">
+        <p>
+            Every graduate has to be complete project in his final year like that i have done 2 
+            Projects Mini project and Major Project.
+            <h4>1.Mini project</h4>
+            <h4>Automation of irrigation system using IOT</h4>
+            Technology we are used in this project is Internet of Things(IOT).
+            The main purpose of this project is to save water and time.
+                <br>
+            for further information go through this <a href="https://www.ripublication.com/ijems_spl/ijemsv8n1_08.pdf">Details.</a>
+    
+            <h4>2.Major Project</h4>
+            <h4>Brain Tumor detection Based on MRI images Using CNN</h4>
+            Technology we are used in this project is Convolution Neural Network(CNN).
+            The main purpose of this project is to know the which type of tumor present in the brain and it is in which stage.
             <br>
-        for further information go through this <a href="https://www.ripublication.com/ijems_spl/ijemsv8n1_08.pdf">Details.</a>
+            For further information go through this <a href="https://www.sciencedirect.com/science/article/pii/S277252862200022X">Details.</a>
+                <br>
+            If u want to go throgh this projects and u need some help, <a href="./Contact.html" target="_blank">Contact me.</a>
+        </p>
+    </div>
+    <div class="E">
+        <p>
+            Thanks for Visting My page
+            if u are satisifed with my content please fill the below form, it gives satisfaction to me.
+        </p>
+    </div>
+    <section class="container">
+        <form id="my-form">
+            <h1>Add User Details</h1>
+            <div class="msg"></div>
 
-        <h4>2.Major Project</h4>
-        <h4>Brain Tumor detection Based on MRI images Using CNN</h4>
-        Technology we are used in this project is Convolution Neural Network(CNN).
-        The main purpose of this project is to know the which type of tumor present in the brain and it is in which stage.
-        <br>
-        for further information go through this <a href="https://www.sciencedirect.com/science/article/pii/S277252862200022X">Details.</a>
-            <br>
-        If u want to go throgh this projects and u need some help, <a href="./Contact.html" target="_blank">Contact me.</a>
-    </p>
-    <p>
-        Thanks for Visting My page
-        if u are satisifed with my content please fill the below form, it gives satisfaction to me.
-        <br><br>
-        <label>Enter name</label>
-        <input type="text" placeholder="Enter your name" name="name">
-        <br>
-        <label for="">Email</label>
-        <input type="text" placeholder="Enter your email" name="email">
-        <br><br>
-        <textarea name="feedback" placeholder="Feedback"></textarea>
-        <br>
-        <input type="submit" name="submit" value="submit">
-    </p>
-    <footer>
-       <h3>Folow me on </h3>
-        <ul>
+            <div>
+                <label for="name">Name:</label>   
+                <input type="text" id="name">
+            </div>
+    
+            <div>
+                <label for="email">Email:</label>   
+                <input type="text" id="email">
+            </div>
+        
+            <input class="button" type="submit" value="Submit">
+    
+        </form>
+
+        <ul id="users">
+
+
+        </ul>
+      
+        <script src="Pro.js"></script>
+    </section>
+    
+    <footer class="H">
+       <h3>Folow me On:  </h3>
+        <ul class="M">
             <li><a href="">Instagram</a></li>
             <li><a href="">Twitter</a></li>
             <li><a href="">Facebook</a></li>
